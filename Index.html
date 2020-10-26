@@ -3,6 +3,7 @@
     <head>
         <title>Landing Page Test</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8ea9353849.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="topo">
@@ -78,5 +79,15 @@
                 <p>Copyright © 2020 - Escola Senai de Informática</p>
             </div>
         </footer>
+        <script>
+            function botaodomenu() {
+              var ulDoMenu = document.getElementById("meuslinks");
+              if (ulDoMenu.style.display === "flex") {
+                ulDoMenu.style.display = "none";
+              } else {
+                ulDoMenu.style.display = "flex";
+              }
+            }
+         </script>
     </body>
 </html>
